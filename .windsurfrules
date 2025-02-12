@@ -1,0 +1,13 @@
+# Windsurf Rules
+
+## Commands
+
+- When I say "Let's get this up to github" do the following steps:
+    1. Add all changes with `git add .`
+    2. Understand all changes with `git diff HEAD`
+    3. Figure out what branch we are on with `git status`
+    4. If we are on main, then checkout to new branch `git checkout -b <branch_name>`
+    5. Commit all changes with `git commit -m "<message>"`
+    6. Push the new branch to github with `git push -u origin <branch_name>`
+    7. Create a pull request with `gh pr create`
+    8. Open the pull request with `gh pr view`
